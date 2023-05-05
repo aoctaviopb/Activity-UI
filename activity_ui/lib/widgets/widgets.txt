@@ -1,0 +1,4 @@
+
+Componentes generales y reutilizables de la app, es decir, barra de título personalizada para toda la app, menús generales sin llegar a lo específico que pueden utilizar en diversos screens con contenido personalizado para cada screen.
+
+Se arma algo general y en la subcarpeta widgets de la sección screens se personaliza y se llena con el contenido necesario.

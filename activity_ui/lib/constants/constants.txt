@@ -1,0 +1,6 @@
+ 
+Las diversas constantes a utilizar en la app (colores, tipos de letra, tamaño, estilos)
+
+Nombre en camelCase iniciando por una k minúscula:
+
+kBlueColor = ...

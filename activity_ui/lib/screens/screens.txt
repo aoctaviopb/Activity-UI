@@ -1,0 +1,6 @@
+
+Las páginas o interfaz con las que el usuario interactuará.
+
+Una app sencilla simplemente puede tener un documento .dart por página.
+
+En apps más complejas se crea una carpeta con el nombre de la página y dentro de esta otras subcarpetas con características únicas de cada página (widgets personalizados únicos, controladores, etc).

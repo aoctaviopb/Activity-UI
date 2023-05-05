@@ -1,0 +1,4 @@
+
+Características vizuales generales de la app, es decir su tema (dark, light).
+
+La idea al personalizar un tema es utilizar los colores implementados en la sección "constants"
