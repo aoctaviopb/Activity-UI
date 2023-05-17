@@ -1,5 +1,4 @@
 import 'package:activity_ui/widgets/reusable_app_bar.dart';
-import 'package:activity_ui/widgets/reusable_bottom_nav_bar.dart';
 import 'package:activity_ui/widgets/reusable_drawer.dart';
 import 'package:activity_ui/widgets/reusable_end_drawer.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +11,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue,
       appBar: const ReusableAppBar(
-        title: 'My Title',
+        title: 'Activity UI',
       ),
       body: Container(
         color: Colors.red,
@@ -20,7 +19,6 @@ class HomePage extends StatelessWidget {
       ),
       drawer: const ReusableDrawer(),
       endDrawer: const ReusableEndDrawer(),
-      bottomNavigationBar: const ReusableBottomNavBar(),
     );
   }
 }

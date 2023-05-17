@@ -1,3 +1,5 @@
+import 'package:activity_ui/screens/home_page/home_page.dart';
+import 'package:activity_ui/screens/secondary_page/second_page.dart';
 import 'package:flutter/material.dart';
 
 class ReusableDrawer extends StatelessWidget {
@@ -15,11 +17,27 @@ class ReusableDrawer extends StatelessWidget {
             child: Text('Drawer'),
           ),
           ListTile(
-            title: const Text('texto 1'),
-            onTap: () {},
+            title: const Text('Home Page'),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const HomePage(),
+                ),
+              );
+            },
           ),
-          const Text('texto 2'),
-          const Text('texto 3'),
+          ListTile(
+            title: const Text('Second Page'),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SecondPage(),
+                ),
+              );
+            },
+          )
         ],
       ),
     );
